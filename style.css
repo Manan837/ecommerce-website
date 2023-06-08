@@ -1,0 +1,93 @@
+.footer{
+    text-align: center;
+    width: 100%;
+    line-height: 3;
+    bottom: 0;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header
+{
+    top: 0;
+    background-color: rgb(93, 93, 93);
+    color: black;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbar-logo img {
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.navbar-logo img:hover {
+    cursor: pointer;
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    width: 600px;
+}
+
+.navbar-search button {
+    width: 45px;
+    height: 45px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+#profile button {
+    width: 55px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+    display: flex;
+}
+
+.horizontal-list li {
+    margin-left: 200px;
+}
+
+.navbar-container-bottom {
+    background-color: grey;
+}
+
+a {
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+}
+
+#cart-icon:hover {
+    cursor: pointer;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px black;
+}
